@@ -1,0 +1,22 @@
+record(bo,"$(H):PWR:cmd") {
+  field(DESC,"uSOP power control")
+  field(SCAN,"Passive")
+  field(DTYP,"$(D)")
+  field(PINI,"YES")
+  field(ZNAM,"OFF")
+  field(ONAM,"ON")
+  field(OMSL,"supervisory")
+  field(DOL,"1")
+  field(OUT,"1")
+  field(RVAL,"1")
+}
+
+record(bi,"$(H):PWR:status") {
+  field(DESC,"uSOP power status")
+  field(SCAN,"1 second")
+  field(DTYP,"$(D)")
+  field(PINI,"YES")
+  field(ZNAM,"OFF")
+  field(ONAM,"ON")
+}
+

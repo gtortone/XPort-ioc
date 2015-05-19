@@ -1,0 +1,4 @@
+device(bo,INST_IO,devBoXPort,"Lantronix XPort")
+device(bi,INST_IO,devBiXPort,"Lantronix XPort")
+device(mbbo,INST_IO,devMbboXPort,"Lantronix XPort")
+device(mbbi,INST_IO,devMbbiXPort,"Lantronix XPort")
