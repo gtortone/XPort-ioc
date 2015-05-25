@@ -20,3 +20,40 @@ record(bi,"$(H):PWR:status") {
   field(ONAM,"ON")
 }
 
+record(mbbo,"$(H):BOOT:sel") {
+  field(DESC,"uSOP boot mode")
+  field(SCAN,"Passive")
+  field(DTYP,"$(D)")
+  field(PINI,"YES")
+  field(OMSL,"supervisory")
+  field(ZRVL,"0")
+  field(ZRST,"reset")
+  field(ONVL,"28")
+  field(ONST,"eMMC")
+  field(TWVL,"8")
+  field(TWST,"Ethernet")
+  field(THVL,"24")
+  field(THST,"microSD")
+  field(FRVL,"4")
+  field(FRST,"UART0")
+  field(DOL,"1")
+  field(OUT,"1")
+  field(RVAL,"0")
+}
+
+record(mbbi,"$(H):BOOT:status") {
+  field(DESC,"uSOP boot status")
+  field(SCAN,"1 second")
+  field(DTYP,"$(D)")
+  field(PINI,"YES")
+  field(ZRVL,"0")
+  field(ZRST,"reset")
+  field(ONVL,"28")
+  field(ONST,"eMMC")
+  field(TWVL,"8")
+  field(TWST,"Ethernet")
+  field(THVL,"24")
+  field(THST,"microSD")
+  field(FRVL,"4")
+  field(FRST,"UART0")
+}
